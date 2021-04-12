@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
     - setuptools
     - numpy >=1.6.0,!=1.14.0
   run:
-    - python
+    - python >=3.6
     - numpy >=1.6.0,!=1.14.0
 
 test:
@@ -30,7 +30,7 @@ test:
 
 about:
   home: https://github.com/pytroll/pyorbital
-  license: GPL-3.0
+  license: GPL-3.0-or-later
   license_family: GPL3
   license_file: LICENSE.txt
   summary: Orbital parameters and astronomical computations in Python

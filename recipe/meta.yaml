@@ -1,5 +1,5 @@
 {% set name = "pyorbital" %}
-{% set version = "1.8.2" %}
+{% set version = "1.8.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 26e267c0633fbe5e93bea897be1388a97298df57297dfb184b85924b97020aed
+  sha256: 1f30c7a68ff17bc097350cd662c0de9422e5c41a455293729d849e3658ee4689
 
 build:
   number: 0

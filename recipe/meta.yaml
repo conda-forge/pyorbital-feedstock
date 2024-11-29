@@ -18,7 +18,8 @@ requirements:
   host:
     - python 3.10
     - pip
-    - setuptools
+    - hatchling
+    - hatch-vcs
     - numpy >=1.6.0,!=1.14.0
   run:
     - python >=3.10

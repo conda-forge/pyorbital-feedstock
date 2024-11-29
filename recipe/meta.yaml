@@ -1,13 +1,13 @@
 {% set name = "pyorbital" %}
-{% set version = "1.8.3" %}
+{% set version = "1.9.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1f30c7a68ff17bc097350cd662c0de9422e5c41a455293729d849e3658ee4689
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: f15d4c0bdbe5fcedede14bd3abaec7a25970a2779fa15d2018250449a4e494d4
 
 build:
   number: 0
@@ -16,12 +16,13 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python 3.10
     - pip
-    - setuptools
+    - hatchling
+    - hatch-vcs
     - numpy >=1.6.0,!=1.14.0
   run:
-    - python >=3.9
+    - python >=3.10
     - numpy >=1.6.0,!=1.14.0
 
 test:

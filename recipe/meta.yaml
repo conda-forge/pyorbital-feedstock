@@ -24,6 +24,9 @@ requirements:
   run:
     - python >=3.10
     - numpy >=1.6.0,!=1.14.0
+    - scipy
+    - defusedxml
+    - requests
 
 test:
   imports:

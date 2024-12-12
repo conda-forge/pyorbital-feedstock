@@ -28,6 +28,7 @@ requirements:
     - scipy
     - defusedxml
     - requests
+    - pytz
 
 test:
   requires:

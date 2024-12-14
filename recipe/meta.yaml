@@ -1,5 +1,5 @@
 {% set name = "pyorbital" %}
-{% set version = "1.9.1" %}
+{% set version = "1.9.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f15d4c0bdbe5fcedede14bd3abaec7a25970a2779fa15d2018250449a4e494d4
+  sha256: bb905d5e115681ff77e5e2a4b208c60539fc58cf6be8cc06cec4ee20979164fb
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -28,7 +28,6 @@ requirements:
     - scipy
     - defusedxml
     - requests
-    - pytz
 
 test:
   requires:

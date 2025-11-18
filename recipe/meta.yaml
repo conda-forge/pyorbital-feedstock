@@ -28,6 +28,8 @@ requirements:
     - scipy
     - defusedxml
     - requests
+    - pyproj
+    - donfig
 
 test:
   requires:

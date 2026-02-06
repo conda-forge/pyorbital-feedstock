@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyorbital-feeds
 
 Home: https://github.com/pytroll/pyorbital
 
-Package license: GPL-3.0-or-later
+Package license: Apache-2.0
 
 Summary: Orbital parameters and astronomical computations in Python
 

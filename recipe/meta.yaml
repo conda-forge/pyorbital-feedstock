@@ -1,5 +1,5 @@
 {% set name = "pyorbital" %}
-{% set version = "1.13.0" %}
+{% set version = "1.14.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d66bf662b1f2269b60fd7ad5671a9c2aed71da5c6aa5e67e01adca0bb69cc7d8
+  sha256: d886cded3ab0e38c9a887ee53bbdbc1546c3addd4a84b6760c80d79382376757
 
 build:
   number: 0
